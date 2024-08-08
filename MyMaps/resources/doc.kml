@@ -1,0 +1,2144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>fishing</name>
+    <description/>
+    <Style id="icon-1528-795548-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1528-795548-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1528-795548-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1528-795548-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1528-795548-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1573-0097A7-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1573-0097A7-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1573-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1573-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1573-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1573-0097A7-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1573-0097A7-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1573-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1573-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1573-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1686-A52714-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1686-A52714-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1686-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1686-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1686-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1686-A52714-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1686-A52714-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1686-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1686-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1686-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1703-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1703-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1703-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1703-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1703-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1703-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1703-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1703-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1703-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1703-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1887-F57C00-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1887-F57C00-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1887-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1887-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1887-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-7CB342-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1892-7CB342-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1892-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-7CB342-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1892-7CB342-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1892-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Stores</name>
+      <Placemark>
+        <name><![CDATA[John's Sporting Goods]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2008239,47.9918257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Triangle Bait & Tackle]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0891923,47.9126187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sportco Warehouse Sporting Goods</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3663711,47.2382278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outdoor Emporium</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3295316,47.5878028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Cabela's]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1871295,48.0843277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Cabela's]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.7847883,47.0620618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bass Pro Shops</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4603188,47.1854799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 Rivers Marine</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1515426,47.7782587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bob's Sporting Goods]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9325912,46.13595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jerry's Bait & Tackle Shop]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.3796406,48.1044759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sportsman's Warehouse]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3166516,47.2877353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sportsman's Warehouse]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2256613,47.9103369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[DICK'S Sporting Goods]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0167465,47.5412258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[DICK'S Sporting Goods]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3250239,47.7088659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[DICK'S Sporting Goods]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1310714,47.6216718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walmart</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3097885,47.3217185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walmart Supercenter</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2209578,47.4719897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Patrick's Fly Shop]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3260583,47.6393874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thrasher Rods</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1445828,47.4827665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jovanovich Supply Co</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3229906,47.4622414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Creekside Angling Company</name>
+        <description>fly fishing</description>
+        <styleUrl>#icon-1686-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0662482,47.5495529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emerald Water Anglers LLC</name>
+        <description>fly fishing</description>
+        <styleUrl>#icon-1686-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -122.385142,47.5627505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gig Harbor Fly Shop</name>
+        <description>fly fishing</description>
+        <styleUrl>#icon-1686-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5807735,47.3297003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walmart Supercenter</name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3102874,47.292324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Auburn Sports & Marine Inc]]></name>
+        <styleUrl>#icon-1686-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2228106,47.3157256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Rivers</name>
+      <Placemark>
+        <name>North Star Creek</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.5114392,47.8468347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elwha River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.5513091,48.1325461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dosewallips River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.967005,47.7161501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sol Duc River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.7699331,47.9346731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Middle Fork Snoqualmie River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6223818,47.5086953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Fork Teanaway River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.007621,47.2960519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Fork Stillaguamish River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0380648,48.1476589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Fork Snoqualmie River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.630279,47.4323793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Fork Skykomish River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4548938,47.7502141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Touchet River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -118.3173605,46.2922517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Fork Stillaguamish River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8474304,48.2801866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huckleberry Creek</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.5995095,47.0646815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barnes Creek</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.7417707,48.0398201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holder Creek</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.959457,47.4681141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rocky Ford Creek</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.4519767,47.2429171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Fork Sauk River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4359724,48.0337337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Fork Manastash Creek</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.9025671,47.0063527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manastash creek</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.9325316,47.0064243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Klickitat River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2593699,46.0913815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Methow River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.9570999,48.075171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Fork Toutle River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9090758,46.3196057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoh River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -124.0299453,47.8123007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoh River 2</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.9334769,47.8610034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bogachiel River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -124.1671735,47.8830197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calawah River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -124.3175542,47.9724075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cowlitz River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9384605,46.3459325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalama River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.550082,46.0574039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lewis River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6563793,45.9271395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naches River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.8670273,46.7862184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sauk River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.5402822,48.312169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skagit River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8492232,48.5199774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skykomish River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8229247,47.8488075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spokane River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.5210097,47.7544245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stillaguamish River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3380464,48.2258832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hatt Slough</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3363276,48.2110789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skykomish River Bridge</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9703091,47.8459854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snohomish River Bridge</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0024723,47.8038629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snohomish River Bridge 2</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0471759,47.83175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peterson Lake</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0769466,47.4224692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snohomish River Fishing</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0756031,47.8626892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northup Creek
+</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.1180429,47.845373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sammamish River</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2505159,47.7543543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sammamish River 2</name>
+        <description>Park at bothell landing park</description>
+        <styleUrl>#icon-1892-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2075312,47.7575011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sammamish River 3</name>
+        <styleUrl>#icon-1892-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2091913,47.7489524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snohomish River</name>
+        <description>Park around looking glass idk</description>
+        <styleUrl>#icon-1892-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0917835,47.9087061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Griffen Creek</name>
+        <description>IDK about parking</description>
+        <styleUrl>#icon-1892-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8440817,47.6190769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Lakes</name>
+      <Placemark>
+        <name>Baker Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6358661,48.722323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bear Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.7430342,48.058602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bonnie Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2724184,47.5658257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bertha Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2463793,47.7553847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blanca Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3401131,47.9410282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.1694896,47.9904758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eagle Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4144656,47.7960698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delta Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3094879,47.5921511,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EB Pot</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.927362,47.02511,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Boardman Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6626828,48.011086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cup Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -120.9227441,47.7148322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coundly Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8387968,47.0503392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiwaukum Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -120.8856225,47.724873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cedar Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8396056,47.0747325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Box Mountain Lakes</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2159211,48.2234834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Echo Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.424106,47.041233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Embro Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.1738163,47.7362119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emerald Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2555274,47.5801887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flapjack Point Pot</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.370943,47.791192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goat Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3508818,48.0179242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gulch Lakes</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4555912,47.9386734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hardscrabble Lakes</name>
+        <description>Overabundant - lower lake</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3419491,47.5316907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hozomeen Lake</name>
+        <description>Overabundant</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.0376297,48.9592155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chambers Lake</name>
+        <description>Stocked</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.8393002,47.0256274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Council Lake</name>
+        <description>Stocked</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6293906,46.266871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lost Lake</name>
+        <description>Stocked</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -123.2522244,47.1632534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ann Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.7575963,48.5064536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coal Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.5166852,48.1122561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glacier Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2960861,47.4675492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Copper Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3322873,47.602241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dog Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3601653,46.6579476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goose Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.7641547,45.9409478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Granite Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9253494,46.6968388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidden Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.8146027,47.8203726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hope Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.090397,47.6988419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manastash Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.9439455,46.9961578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pete Lake</name>
+        <description>shallow shoreline</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2352794,47.4761102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazama Lakes</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.7225101,48.8501659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Schaefer Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.8417486,47.9626707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8311916,47.0396577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Surprise Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.1411233,47.6683234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twin Sisters Lakes</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.370616,46.7359375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waptus Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.1803259,47.5042185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Newaukum Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.474651,46.6642179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Knuppenburg Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4181009,46.6287906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moss Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.850369,47.6942072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shaw Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6938086,47.9330453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temple Pond 1</name>
+        <description>Bass</description>
+        <styleUrl>#icon-1703-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -122.042722222222,47.8463333333333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alder Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2724564,46.7716041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Goodwin</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2945248,48.1375546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riffe Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2928431,46.4805489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Ballinger</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3276873,47.7820803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gissberg Twin Lakes</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1909419,48.1422907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taneum Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.0427923,47.0609559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blackmans lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.094708,47.9302539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pond 6</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.3212178,46.4216594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Hole</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2645517,47.3913396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pine Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0412099,47.5879223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pier@ Newcastle Beach</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1911237,47.5656078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Groveland Beach Pier</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2349231,47.5514322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reverend U.G. Murphy Fishing Pier</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2555989,47.5608207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pier@ Gene Coulon Beach</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2035519,47.5068602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luther Burbank Pier</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2236957,47.5890541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matthews Beach</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.271848,47.6945524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>David E. Brink Park Pier</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2070043,47.6705533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Log Boom Pier</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2634396,47.7568101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Tapps West</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2047301,47.2383899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Tapps Bridge</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1979097,47.2399149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Tapps South</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1612087,47.1941359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Allan Yorke Park</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.165347,47.1916021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Tapps East</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1445968,47.230834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Desire</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1078551,47.4461253,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shadow Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0850715,47.4019008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Union Bay</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2903434,47.646871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cottage Lake Dock</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0874649,47.7554576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2081823,47.8895519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pioneer Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1793481,47.8848836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Easton</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.1958727,47.2530227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shadow Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0931725,47.8606664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Langlois Lake</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8850525,47.6353502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Sammamish</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1013636,47.6429814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Sammamish 2</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0887689,47.6484226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Boren Park Fishing Pier</name>
+        <styleUrl>#icon-1703-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1648849,47.5315033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Piers</name>
+      <Placemark>
+        <name>Edmonds fishing pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3891353,47.8113938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Des Moines Marina Pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3299418,47.4027165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kayak Point Pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.36869,48.1365817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Redondo Park — Beach, Fishing Pier, and Boat Launch</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3251549,47.3484996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dash Point Pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4271715,47.3193058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Les Davis Public Fishing Pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4813192,47.2835001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox Island Fishing Pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5898177,47.2286367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Seattle Bridge Trail Fishing Dock</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3452416,47.5716809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Port Angeles City Pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.4280179,48.1209922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Port of Waterman Public Pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5812886,47.5731077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Public Docks</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5812113,47.331326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harper Recreational Fishing Pier</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5196332,47.5219239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Suquamish Dock</name>
+        <styleUrl>#icon-1528-795548-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5517578,47.7295837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Beaches</name>
+      <Placemark>
+        <name>Deception Pass</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6647521,48.3994886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Beach</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6540761,48.4019184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bush Point</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6033683,48.0334798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lagoon Point</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6129652,48.0751517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marrowstone Point</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6879424,48.1012052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point Wilson</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.7543369,48.1439843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Casey State Park</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.677843,48.1559935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point No Point</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5259781,47.9120382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Possesion Point</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3756239,47.9122867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Picnic Point</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3332434,47.8805449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lighthouse Park</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3062137,47.9487529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meadow Point</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4056856,47.6939865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Point Lighthouse</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.435739,47.6619696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seacrest Park</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3806401,47.5894407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lincoln Park</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4013564,47.5302088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Browns Point</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4446472,47.3057989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Owen Beach</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5287473,47.3133552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Titlow</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5510044,47.2551209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twin Beach</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.9487215,48.1650053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Martha's Beach, LaConner, WA]]></name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5214014,48.3757425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McGlinn Beach</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5073993,48.372368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saltair Beach Park</name>
+        <styleUrl>#icon-1887-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4943064,47.7976922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Ponds</name>
+      <Placemark>
+        <name>A hole</name>
+        <description>mike olesh reccomended</description>
+        <styleUrl>#icon-1573-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1003785,47.3516021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Desire Pond</name>
+        <styleUrl>#icon-1573-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0988412,47.4506531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gold Creek Pond</name>
+        <styleUrl>#icon-1573-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3803058,47.3985675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
