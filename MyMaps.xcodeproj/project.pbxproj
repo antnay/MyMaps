@@ -11,6 +11,13 @@
 		923A85472C5C5D0300CAC17C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A85462C5C5D0300CAC17C /* ContentView.swift */; };
 		923A85492C5C5D0300CAC17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923A85482C5C5D0300CAC17C /* Assets.xcassets */; };
 		923A854C2C5C5D0300CAC17C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923A854B2C5C5D0300CAC17C /* Preview Assets.xcassets */; };
+		92FB25022C64A58600398780 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB24FC2C64A58600398780 /* map.swift */; };
+		92FB25032C64A58600398780 /* kmz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB24FD2C64A58600398780 /* kmz.swift */; };
+		92FB25042C64A58600398780 /* extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB24FE2C64A58600398780 /* extras.swift */; };
+		92FB25052C64A58600398780 /* ui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB24FF2C64A58600398780 /* ui.swift */; };
+		92FB25062C64A58600398780 /* kml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB25002C64A58600398780 /* kml.swift */; };
+		92FB25072C64A58600398780 /* google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB25012C64A58600398780 /* google.swift */; };
+		92FB250A2C64A5AB00398780 /* Drawer in Frameworks */ = {isa = PBXBuildFile; productRef = 92FB25092C64A5AB00398780 /* Drawer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,12 @@
 		923A85462C5C5D0300CAC17C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		923A85482C5C5D0300CAC17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923A854B2C5C5D0300CAC17C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92FB24FC2C64A58600398780 /* map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		92FB24FD2C64A58600398780 /* kmz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kmz.swift; sourceTree = "<group>"; };
+		92FB24FE2C64A58600398780 /* extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extras.swift; sourceTree = "<group>"; };
+		92FB24FF2C64A58600398780 /* ui.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ui.swift; sourceTree = "<group>"; };
+		92FB25002C64A58600398780 /* kml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kml.swift; sourceTree = "<group>"; };
+		92FB25012C64A58600398780 /* google.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = google.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92FB250A2C64A5AB00398780 /* Drawer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +65,12 @@
 		923A85432C5C5D0300CAC17C /* MyMaps */ = {
 			isa = PBXGroup;
 			children = (
+				92FB24FE2C64A58600398780 /* extras.swift */,
+				92FB25012C64A58600398780 /* google.swift */,
+				92FB25002C64A58600398780 /* kml.swift */,
+				92FB24FD2C64A58600398780 /* kmz.swift */,
+				92FB24FC2C64A58600398780 /* map.swift */,
+				92FB24FF2C64A58600398780 /* ui.swift */,
 				923A85442C5C5D0300CAC17C /* MyMapsApp.swift */,
 				923A85462C5C5D0300CAC17C /* ContentView.swift */,
 				923A85482C5C5D0300CAC17C /* Assets.xcassets */,
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = MyMaps;
+			packageProductDependencies = (
+				92FB25092C64A5AB00398780 /* Drawer */,
+			);
 			productName = MyMaps;
 			productReference = 923A85412C5C5D0300CAC17C /* MyMaps.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 923A85382C5C5D0300CAC17C;
+			packageReferences = (
+				92FB25082C64A5AB00398780 /* XCRemoteSwiftPackageReference "swiftui-drawer" */,
+			);
 			productRefGroup = 923A85422C5C5D0300CAC17C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92FB25022C64A58600398780 /* map.swift in Sources */,
+				92FB25052C64A58600398780 /* ui.swift in Sources */,
 				923A85472C5C5D0300CAC17C /* ContentView.swift in Sources */,
+				92FB25042C64A58600398780 /* extras.swift in Sources */,
+				92FB25072C64A58600398780 /* google.swift in Sources */,
+				92FB25032C64A58600398780 /* kmz.swift in Sources */,
 				923A85452C5C5D0300CAC17C /* MyMapsApp.swift in Sources */,
+				92FB25062C64A58600398780 /* kml.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92FB25082C64A5AB00398780 /* XCRemoteSwiftPackageReference "swiftui-drawer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/swiftui-drawer";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92FB25092C64A5AB00398780 /* Drawer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92FB25082C64A5AB00398780 /* XCRemoteSwiftPackageReference "swiftui-drawer" */;
+			productName = Drawer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 923A85392C5C5D0300CAC17C /* Project object */;
 }
