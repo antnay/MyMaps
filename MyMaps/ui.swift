@@ -49,7 +49,9 @@ struct DoubleButton: View {
     }
 }
 
-struct OuterDrawerView: View {
+struct OuterDrawerView: View {    
+    @ObservedObject var sharedList: SharedList
+
     var body: some View {
         Drawer(startingHeight:350) {
             ZStack {
@@ -61,7 +63,7 @@ struct OuterDrawerView: View {
                         .foregroundColor(Color(UIColor.systemGray))
                         .frame(width: 40.0, height: 6.0)
                         .padding(.top, 7)
-                    DrawerView()
+                    DrawerView(sharedList: sharedList)
                     //                    Spacer()
                 }
             }
@@ -71,10 +73,8 @@ struct OuterDrawerView: View {
     }
 }
 
-
-
 struct DrawerView: View {
-    var sharedList: SharedList = SharedList()
+    @ObservedObject var sharedList: SharedList
     @State var search: String = ""
     var body: some View {
         SearchView(sharedList: sharedList)
@@ -141,7 +141,7 @@ struct SearchView: View {
         }
         .padding([.top, .top], 7)
         .padding([.leading, .trailing], 10)
-        // TODO: Make a search bar, search map using MapKit and your POI combined
+        // TODO: Make a search bar, search map using MapKit and your Location combined
         // TODO: Settings button should do some google drive stuff IDK in a sheet
     }
 }
@@ -166,7 +166,6 @@ struct DocumentPicker: UIViewControllerRepresentable {
         init(_ parent: DocumentPicker) {
             self.parent = parent
         }
-        
         func documentPicker(_ controller:
                             UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
             guard let fileURL = urls.first else { return
@@ -180,9 +179,8 @@ struct DocumentPicker: UIViewControllerRepresentable {
 struct LocationList: View {
     @ObservedObject var sharedList: SharedList
     var body: some View {
-        let folderList: [POILayer] = sharedList.layerList
+        let folderList: [LocationLayer] = sharedList.layerList
         // TODO: List layers and locations, make locations clickable, layers hideable
-        //        ScrollView (content: {
         ScrollView {
             VStack {
                 ForEach(folderList, content: { list in
@@ -190,13 +188,12 @@ struct LocationList: View {
                 })
             }
         }
-        //        })
     }
 }
 
 struct Layer: View {
     @State var nameOfLayer: String
-    @State var listOfLocations: [POI]
+    @State var listOfLocations: [Location]
     @State private var showLayer: Bool = true
     var body: some View {
         //            HStack {
@@ -221,7 +218,7 @@ struct Layer: View {
 }
 
 struct LocationButton: View {
-    @State var location: POI
+    @State var location: Location
     var body: some View {
         Button(action: {print(location.name)}, label: {
             //            HStack {

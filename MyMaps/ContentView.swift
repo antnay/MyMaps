@@ -13,11 +13,11 @@ import MapKit
 struct ContentView: View {
     //     TODO: inital location at user location
     @State private var search:String = ""
-    
+    @State var mapStyle: MapStyle = .hybrid
+    var sharedList: SharedList = SharedList()
     var body: some View {
         ZStack {
-            MapView()
-            
+            MapView(sharedList: sharedList, mapStyle: $mapStyle)
             DoubleButton(
                 topButtonImageName: "globe.americas.fill",
                 bottomButtonImageName:  "location") { tappedButton in
@@ -25,19 +25,20 @@ struct ContentView: View {
                     case .top:
                         // TODO: Sheet popups and choose
                         // TODO: choose explore or satelite or hybrid/terrain IDK
+//                        mapStyle = .hybrid
                         print("top button tapped")
+                        sharedList.writeJSON()
                     case .bottom:
                         // TODO: Snap to current location
                         print("bottom button tapped")
-                        getKMZ()
+                        sharedList.parseKML()
                     }
                 }
                 .position(x:UIScreen.main.bounds.width - 30, y:UIScreen.main.bounds.minY + 110)
-            OuterDrawerView()
+            OuterDrawerView(sharedList: sharedList)
         }
         .edgesIgnoringSafeArea(.vertical)
     }
-    
 }
 
 #Preview {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923940342C6721C900B86C64 /* doc.kml in Resources */ = {isa = PBXBuildFile; fileRef = 923940322C6721C900B86C64 /* doc.kml */; };
 		923A85452C5C5D0300CAC17C /* MyMapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A85442C5C5D0300CAC17C /* MyMapsApp.swift */; };
 		923A85472C5C5D0300CAC17C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A85462C5C5D0300CAC17C /* ContentView.swift */; };
 		923A85492C5C5D0300CAC17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923A85482C5C5D0300CAC17C /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923940322C6721C900B86C64 /* doc.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = doc.kml; sourceTree = "<group>"; };
 		923A85412C5C5D0300CAC17C /* MyMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923A85442C5C5D0300CAC17C /* MyMapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapsApp.swift; sourceTree = "<group>"; };
 		923A85462C5C5D0300CAC17C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		923940332C6721C900B86C64 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				923940322C6721C900B86C64 /* doc.kml */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		923A85382C5C5D0300CAC17C = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 		923A85432C5C5D0300CAC17C /* MyMaps */ = {
 			isa = PBXGroup;
 			children = (
+				923940332C6721C900B86C64 /* resources */,
 				92FB24FE2C64A58600398780 /* extras.swift */,
 				92FB25012C64A58600398780 /* google.swift */,
 				92FB25002C64A58600398780 /* kml.swift */,
@@ -151,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923940342C6721C900B86C64 /* doc.kml in Resources */,
 				923A854C2C5C5D0300CAC17C /* Preview Assets.xcassets in Resources */,
 				923A85492C5C5D0300CAC17C /* Assets.xcassets in Resources */,
 			);
@@ -303,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyMaps/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "MyMaps/Preview\\ Content MyMaps/resources";
 				DEVELOPMENT_TEAM = 29GAZ66V65;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -332,7 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyMaps/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "MyMaps/Preview\\ Content MyMaps/resources";
 				DEVELOPMENT_TEAM = 29GAZ66V65;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
